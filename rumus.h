@@ -61,10 +61,10 @@ int Knapsack::proses(int W, int Wt[], int val[], int n){
 }
 
 void Knapsack::output(){
-    cout << "===Pencarian solusi Optimal Menggunakan Knapsack===" <<endl;
+    cout << "===Hasil knapsack secara exhaustive search===" <<endl;
     for(int i = 0; i < n; i++){
         cout << "W" << i+1 << " : " << Wt[i] << " | " << "p" << i+1 << " : " << Val[i] <<endl;
     }
-    cout << "Kapasitas knapsack : " << Kk <<endl;
+    cout << "Kapasitas knapsack : " << Kk <<endl<<endl;
     cout << "Total Keuntungan   : " << proses(Kk, Wt, Val, n) <<endl;
 }
