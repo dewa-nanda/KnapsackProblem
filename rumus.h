@@ -27,7 +27,7 @@ Knapsack::Knapsack(){
 void Knapsack::input(){
     cout << "Masukan panjang array : ";
         cin >> n;
-    cout << "Masukan panjang total bobot" <<endl;
+    cout << "Masukan total bobot" <<endl;
     for(int i = 0; i < n; i++){
         cout << i+1 << " : ";
             cin >> Wt[i];
